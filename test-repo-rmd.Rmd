@@ -14,7 +14,7 @@ library(tidyverse)
 ```{r}
 starwars %>% 
   ggplot() +
-  geom_point(aes(x = height, y = mass), color = "purple")
+  geom_point(aes(x = height, y = mass), color = "green")
 ```
 
 
